@@ -12,7 +12,7 @@ h1{font-size:clamp(32px,5vw,64px);line-height:1.15;letter-spacing:-1.5px;margin:
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{padding:30px;border:1px solid #31413c;border-radius:18px;background:linear-gradient(140deg,#1d3029,#10211e);display:flex;flex-direction:column;gap:12px}
 .card h2{font-size:27px;line-height:1.35;margin:6px 0}.card p{font-size:16px;color:var(--muted);margin:0 0 15px}.actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:auto;font:14px/1.6 system-ui}
 .cta{display:inline-block;background:var(--green);color:#10200b;padding:12px 19px;border-radius:10px;font:700 14px/1.5 system-ui;text-decoration:none}
-.links{margin:60px 0;padding:30px;border-left:3px solid var(--green);background:var(--card)}.links a{display:block;margin:12px 0;font:16px/1.6 system-ui}
+.cliffhanger-cta{display:block;font-size:22px;padding:25px;background:#ffd45c;color:#161008;border:2px solid #fff1b6;box-shadow:0 0 28px #e9a52e44;margin:24px 0}.links{margin:60px 0;padding:30px;border-left:3px solid var(--green);background:var(--card)}.links a{display:block;margin:12px 0;font:16px/1.6 system-ui}
 .reader{max-width:780px;margin:0 auto 100px}.chapter{padding:35px 0;border-top:1px solid #31413c}.chapter h2{font-size:28px;line-height:1.4}.chapter p{white-space:pre-line;overflow-wrap:anywhere}
 .sticky{position:sticky;bottom:0;background:#14241ef5;border-top:1px solid #476038;padding:16px max(4%,calc((100% - 1120px)/2));display:flex;justify-content:space-between;align-items:center;gap:20px;backdrop-filter:blur(12px);font:14px/1.5 system-ui}
 footer{padding:30px 0;color:var(--muted);font:13px/1.7 system-ui}.description{color:var(--muted)}
